@@ -1,0 +1,67 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:background="#FFFFFF"
+			android:gravity="center_horizontal"
+			android:orientation="vertical">
+			<ImageView
+				android:id="@+id/imageview1"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="200dp"
+				android:src="@drawable/load"
+				android:scaleType="center" />
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="4dp"
+				android:gravity="center_horizontal"
+				android:orientation="horizontal">
+				<TextView
+					android:id="@+id/head"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="መንፈሳዊ ምክሮች V1.0.0"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#001D3F" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/about"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="ተሰራ፦ በቴድሮስ ተሾመ\nፅሕፈትና ሀሳብ፦ ሃይማኖት ተሾመ\nተጨማሪ ሀሳብ፦ ቤተልሔም\n\nምንጭ፦ መፅሐፍትና መንፈሳዊ ምክሮች ገፅ\n\nጠቃሚ ድሮች፦\n\@SeriousRas\n\@WeleteZion\n\nሐምሌ 2016 ዓ.ም፣ ወለንጭቲ ከተማ።\n\nZionGateApps©"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					android:textColor="#001D3F" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

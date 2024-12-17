@@ -1,0 +1,89 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/mainHolder"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#EEEEEE"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/actionBar"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:layout_margin="2dp"
+			android:padding="8dp"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="መንፈሳዊ ምክሮች"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#001D3F" />
+			<Space
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:textSize="12sp"
+				android:textColor="#000000"
+				android:layout_weight="1" />
+			<ImageView
+				android:id="@+id/imageview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/ic_more_vert_black"
+				android:scaleType="center" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/engine"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="2dp"
+			android:layout_marginRight="2dp"
+			android:layout_marginBottom="2dp"
+			android:padding="3dp"
+			android:orientation="vertical">
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="ታሪክና ትምህርት ማውጫ"
+				android:textSize="12sp"
+				android:textStyle="bold"
+				android:textColor="#000919" />
+			<LinearLayout
+				android:id="@+id/topics"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginTop="2dp"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear1"
+					android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:orientation="horizontal" />
+				<ListView
+					android:id="@+id/listview1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@android:color/transparent"
+					android:dividerHeight="0dp"
+					android:divider="@null"
+					android:choiceMode="none" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

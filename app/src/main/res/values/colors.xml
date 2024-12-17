@@ -1,0 +1,7 @@
+<resources>
+	<color name="colorPrimary">#001D3F</color>
+	<color name="colorPrimaryDark">#001D3F</color>
+	<color name="colorAccent">#000919</color>
+	<color name="colorControlHighlight">#001D3F</color>
+	<color name="colorControlNormal">#001D3F</color>
+</resources>
